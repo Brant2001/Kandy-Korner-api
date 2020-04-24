@@ -1,0 +1,89 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productTypeId": 2,
+      "name": "Double Buble",
+      "price": ".10¢"
+    },
+    {
+      "id": 2,
+      "productTypeId": 1,
+      "name": "Jolly Rancher",
+      "price": ".10¢"
+    },
+    {
+      "id": 3,
+      "productTypeId": 4,
+      "name": "Royal Crown Cola",
+      "price": ".50¢"
+    },
+    {
+      "id": 4,
+      "productTypeId": 3,
+      "name": "Dark Cocolate Covered Coffee Beans",
+      "price": "1.00$"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "address": "123 Main St",
+      "squareFt": 300,
+      "handicapA": true
+    },
+    {
+      "id": 2,
+      "address": "321 Main Way",
+      "squareFt": 500,
+      "handicapA": true
+    },
+    {
+      "id": 3,
+      "address": "231 St Main",
+      "squareFt": 200,
+      "handicapA": false
+    }
+  ],
+  "employees": [
+    {
+      "name": "Princess Bubble Gum",
+      "locationId": 1,
+      "isManager": true,
+      "isFullTime": false,
+      "hourlyRate": "1000",
+      "id": 1
+    },
+    {
+      "name": "Corny Candy",
+      "locationId": 2,
+      "isManager": false,
+      "isFullTime": true,
+      "hourlyRate": "-50",
+      "id": 2
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "name": "Hard Candy"
+    },
+    {
+      "id": 2,
+      "name": "Gum"
+    },
+    {
+      "id": 3,
+      "name": "Chocolate"
+    },
+    {
+      "id": 4,
+      "name": "Soda"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1
+    }
+  ]
+}
